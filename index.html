@@ -12,45 +12,159 @@
   <title>"Portfólio Dev</title>
 </head>
 <body>
-  <!-- Seção de Apresentação (Intro) -->
-    <section id="intro">
-  <!-- Foto de perfil centralizada -->
-  <img class="profile-pic" src="assets/Images/ImagePerfil.svg" alt="Foto de perfil">
+          <!-- Seção de Apresentação (Intro) -->
+       <section id="intro">
+          <!-- Foto de perfil centralizada com icone -->
+          <div class="profile-container">
+                <img class="profile-pic" src="assets/Images/ImagePerfil.svg" alt="Foto de perfil">
+                 <img class="profile-icon" src="assets/Icons/Vector.svg" alt="Ícone código">
+          </div>
+          <!-- Saudação em linha com nome em destaque -->
+          
+          <span class="hello">
+            Hello World! Meu nome é <span class="name">Martina Santos</span> e sou
+          </span>
 
-  <!-- Saudação em linha com nome em destaque -->
-  <span class="hello">
-    Hello World! Meu nome é <span class="name">Martina Santos</span> e sou
-  </span>
+          <!-- Cargo em destaque -->
+          <h1>Desenvolvedora Fullstack</h1>
 
-  <!-- Cargo em destaque -->
-  <h1>Desenvolvedora Fullstack</h1>
+          <!-- Descrição -->
+          <p class="desc">
+            Transformo necessidades em aplicações reais, evolventes e funcionais.<br>
+            Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
+          </p>
 
-  <!-- Descrição -->
-  <p class="desc">
-    Transformo necessidades em aplicações reais, evolventes e funcionais.<br>
-    Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
-  </p>
+          <!-- Pills das tecnologias -->
+          <ul class="tech-list">
+            <li><span class="pill github"><img src="assets/Icons/GitHub.svg" alt="GitHub">GitHub</span></li>
+            <li><span class="pill html"><img src="assets/Icons/HTML.svg" alt="HTML">HTML</span></li>
+            <li><span class="pill css"><img src="assets/Icons/CSS.svg" alt="CSS">CSS</span></li>
+            <li><span class="pill js"><img src="assets/Icons/JavaScript.svg" alt="JavaScript">Javascript</span></li>
+            <li><span class="pill react"><img src="assets/Icons/React.svg" alt="React">React</span></li>
+            <li><span class="pill node"><img src="assets/Icons/Node.js.svg" alt="Node.js">Node.js</span></li>
+          </ul>
 
-  <!-- Pills das tecnologias -->
-  <ul class="tech-list">
-    <li><span class="pill github"><img src="assets/Icons/GitHub.svg" alt="GitHub">GitHub</span></li>
-    <li><span class="pill html"><img src="assets/Icons/HTML.svg" alt="HTML">HTML</span></li>
-    <li><span class="pill css"><img src="assets/Icons/CSS.svg" alt="CSS">CSS</span></li>
-    <li><span class="pill js"><img src="assets/Icons/JavaScript.svg" alt="JavaScript">Javascript</span></li>
-    <li><span class="pill react"><img src="assets/Icons/React.svg" alt="React">React</span></li>
-    <li><span class="pill node"><img src="assets/Icons/Node.js.svg" alt="Node.js">Node.js</span></li>
-  </ul>
+          <!-- Linha divisória -->
+          <div class="divider"></div>
 
-  <!-- Linha divisória -->
-  <div class="divider"></div>
+          <!-- Seta (apenas imagem, sem animação) -->
+          <img class="scroll-arrow" src="assets/Icons/ArrowDown.svg" alt="Scroll down">
+       </section>
 
-  <!-- Seta (apenas imagem, sem animação) -->
-  <img class="scroll-arrow" src="assets/Icons/ArrowDown.svg" alt="Scroll down">
-</section>
+       <section id="projects">
+         <div class="section-top">
+    <span class="section-label">Meu trabalho</span>
+    <h2>Veja os projetos em destaque</h2>
+    <div class="divider pink"></div>
+  </div>
+  <div class="projects-grid">
+    <!-- Card 1 -->
+    <div class="project-card border-pink">
+      <img src="assets/Images/Thumbnail_Project-01.png" alt="Travelgram">
+      <div>
+        <h3>Travelgram</h3>
+        <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+      </div>
+    </div>
 
-</section>
+    <!-- Card 2 -->
+    <div class="project-card border-blue">
+      <img src="assets/Images/Thumbnail_Project-02.png" alt="Tech News">
+      <div>
+        <h3>Tech News</h3>
+        <p>Homepage de um portal de notícias sobre a área de tecnologia</p>
+      </div>
+    </div>
 
-  </header>
-  </section>
+    <!-- Card 3 -->
+    <div class="project-card border-yellow">
+      <img src="assets/Images/Thumbnail_Project-03.png" alt="Página de receita">
+      <div>
+        <h3>Página de receita</h3>
+        <p>Página com o passo a passo de uma receita para cupcakes</p>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="project-card border-gold">
+      <img src="assets/Images/Thumbnail_Project-04.png" alt="Zingen">
+      <div>
+        <h3>Zingen</h3>
+        <p>Landing Page completa e responsiva de um aplicativo de Karaokê</p>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="project-card border-green">
+      <img src="assets/Images/Thumbnail_Project-05.png" alt="Refund">
+      <div>
+        <h3>Refund</h3>
+        <p>Um sistema para pedido e acompanhamento de reembolso</p>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="project-card border-pink">
+      <img src="assets/Images/Thumbnail_Project-06.png" alt="Página de turismo">
+      <div>
+        <h3>Página de turismo</h3>
+        <p>Página com as principais informações para quem quer viajar para Busan</p>
+      </div>
+    </div>
+  </div>
+       </section>
+
+        <section id="services">
+ <div class="services-header">
+    <span class="services-label">Meus serviços</span>
+    <h2>Como posso ajudar o seu negócio</h2>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <img src="assets/Icons/Webicon.svg" alt="Websites e Aplicativos" class="service-icon purple">
+      <h3>Websites e Aplicativos</h3>
+      <p>Desenvolvimento de interfaces</p>
+    </div>
+    <div class="service-card">
+      <img src="assets/Icons/Banco.svg" alt="API e banco de dados" class="service-icon yellow">
+      <h3>API e banco de dados</h3>
+      <p>Criação de serviços do sistema</p>
+    </div>
+    <div class="service-card">
+      <img src="assets/Icons/DevOpsIcon.svg" alt="DevOps" class="service-icon green">
+      <h3>DevOps</h3>
+      <p>Gestão e infraestrutura da aplicação</p>
+    </div>
+  </div>          
+        </section>
+
+        <section id="contact">
+ <span class="contact-label">Contato</span>
+  <h2 class="contact-title">Gostou do meu trabalho?</h2>
+  <p class="contact-subtitle">Entre em contato ou acompanhe as minhas redes sociais!</p>
+
+  <div class="contact-links">
+    <a href="https://linkedin.com" target="_blank" class="contact-card">
+      <img src="assets/Icons/Linkdin.svg" alt="Linkedin">
+      <span>Linkedin</span>
+      <img src="assets/Icons/Bluearrow.svg" alt="Acessar" class="arrow-link">
+    </a>
+    <a href="https://instagram.com" target="_blank" class="contact-card">
+      <img src="assets/Icons/instagram.svg" alt="Instagram">
+      <span>Instagram</span>
+      <img src="assets/Icons/Bluearrow.svg" alt="Acessar" class="arrow-link">
+    </a>
+    <a href="https://github.com" target="_blank" class="contact-card">
+      <img src="assets/Icons/github.svg" alt="GitHub">
+      <span>GitHub</span>
+      <img src="assets/Icons/Bluearrow.svg" alt="Acessar" class="arrow-link">
+    </a>
+    <a href="mailto:email@email.com" class="contact-card">
+      <img src="assets/Icons/Cartao.svg" alt="E-mail">
+      <span>E-mail</span>
+      <img src="assets/Icons/Bluearrow.svg" alt="Acessar" class="arrow-link">
+    </a>
+  </div>
+        </section>
 </body>
 </html>

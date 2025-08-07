@@ -14,7 +14,7 @@ body {
 
 /* ===== SECTION INTRO ===== */
 #intro {
-  min-height: 100vh;
+  min-height: 50vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -33,6 +33,26 @@ body {
   background: #222;
   display: block;
   object-fit: cover;
+}
+
+.profile-container {
+  position: relative;
+  width: 120px;   /* igual ao tamanho da profile-pic */
+  height: 120px;
+  margin: 0 auto 24px auto;
+}
+
+
+.profile-icon {
+  position: absolute;
+  right: -18px;   /* ajusta a posição horizontal, pode ser -16, -20, etc conforme seu ícone */
+  bottom: 0;
+  width: 38px;
+  height: 38px;
+  background: #18181b;
+  border-radius: 50%;
+  padding: 4px;
+  /* box-shadow opcional para destacar */
 }
 
 /* Saudação em linha */
@@ -100,14 +120,14 @@ body {
 }
 .pill.github { background: #232235; }
 .pill.html   { background: #ed4305; }
-.pill.css    { background: #379ad6; }
-.pill.js     { background: #ecc70a; color: #222; }
+.pill.css    { background: #005e99; }
+.pill.js     { background: #ffdd32; color: #222; }
 .pill.react  { background: #03a9d7; color: #222; }
 .pill.node   { background: #6dcf04; color: #222; }
 
 /* Linha divisória */
 .divider {
-  width: 32px;
+  width: 600px;
   height: 3px;
   background: #8257e5;
   margin: 0 0 22px 0;
@@ -119,7 +139,7 @@ body {
   width: 28px;
   height: 28px;
   display: block;
-  margin: 0 auto 0 auto;
+  margin: 50pxpx  7 auto;
   opacity: 0.7;
 }
 
